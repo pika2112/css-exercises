@@ -3,13 +3,18 @@ body {
 }
 
 img {
-  width: 100px;
+  max-width: 200px;
   height: 100px;
+  gap: 52px;
+  justify-content: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +28,19 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  gap: 52px;
+}
+
+.square {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;  
+  align-content: flex-start;
 }
